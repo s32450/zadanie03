@@ -1,5 +1,4 @@
 import org.w3c.dom.ls.LSOutput;
-
 import java.util.ArrayList;
 
 
@@ -17,7 +16,7 @@ public class Main {
         biblioteka.dodajUtwor("Imagine");
         biblioteka.dodajUtwor("AC/DC - Back in Black");
         biblioteka.usunUtwor("Imagine");
-        
+
         biblioteka.utworzPlayliste("Kultowe");
         biblioteka.utworzPlayliste("Rock");
 
@@ -31,7 +30,7 @@ public class Main {
         biblioteka.wyswietlPlayliste("Rock");
         biblioteka.wyszukajUtwory("day");
 
-        biblioteka.wyswietlUtwory();
+
         biblioteka.wyswietlPlayliste("Kultowe");
     }
 }
@@ -118,4 +117,4 @@ class BibliotekaMuzyczna {
             System.out.println(playlista.getNazwa());
         }
     }
-} 
+}
